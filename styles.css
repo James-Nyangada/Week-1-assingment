@@ -1,0 +1,19 @@
+a{
+    text-decoration: none;
+    color: black;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 25px;
+}
+a:hover{
+    background-color: black;
+    color: white;
+}
+li{
+    list-style: none;
+}
+ul{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
