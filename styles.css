@@ -17,3 +17,10 @@ ul{
     gap: 50px;
     justify-content: center;
 }
+section{
+    height: 100vh;
+}
+.btn{
+    background: yellow;
+    color: black;
+}
