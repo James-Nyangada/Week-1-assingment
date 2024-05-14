@@ -1,0 +1,88 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+  background-color: #4CAF50;
+  padding: 20px;
+}
+
+.header-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #fff;
+}
+
+/* Introduction Section Styles */
+.introduction {
+  background-color: #f2f2f2;
+  padding: 30px;
+}
+
+.introduction-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #333;
+}
+
+/* Skills Section Styles */
+.skills {
+  padding: 30px;
+}
+
+.skills-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Contact Section Styles */
+footer {
+  background-color: #333;
+  padding: 30px;
+  color: #fff;
+}
+
+.contact-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+  .header-container, .introduction-container, .skills-container, .contact-container {
+    max-width: 90%;
+  }
+}
